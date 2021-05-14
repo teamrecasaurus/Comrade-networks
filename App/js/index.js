@@ -35,6 +35,7 @@ xui.Class('App', 'xui.Module',{
                 .setLeft("8.733333333333333em")
                 .setTop("0.6666666666666666em")
                 .setHeight("16.333333333333332em")
+                .setSrc("https://video.wixstatic.com/video/d00f8c_954aa0f736d74f94ac97126d0ec28cce/720p/mp4/file.mp4")
             );
             
             return children;
