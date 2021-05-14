@@ -30,12 +30,14 @@ xui.Class('App', 'xui.Module',{
             );
             
             host.xui_ui_panel13.append(
-                xui.create("xui.UI.Video")
-                .setHost(host,"xui_ui_video1")
-                .setLeft("8.733333333333333em")
-                .setTop("0.6666666666666666em")
-                .setHeight("16.333333333333332em")
-                .setSrc("https://video.wixstatic.com/video/d00f8c_954aa0f736d74f94ac97126d0ec28cce/720p/mp4/file.mp4")
+                xui.create("xui.UI.Link")
+                .setHost(host,"xui_ui_link6")
+                .setLeft("12.066666666666666em")
+                .setTop("2.6666666666666665em")
+                .setWidth("15.666666666666666em")
+                .setHeight("11.466666666666667em")
+                .setCaption("Link")
+                .setTarget("https://www.comradenetworks.com/")
             );
             
             return children;
