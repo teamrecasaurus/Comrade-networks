@@ -36,7 +36,7 @@ xui.Class('App', 'xui.Module',{
                 .setTop("0em")
                 .setWidth("23em")
                 .setHeight("13em")
-                .setCaption("google.com")
+                .setCaption("urltexedit")
             );
             
             return children;
