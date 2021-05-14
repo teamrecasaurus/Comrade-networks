@@ -37,10 +37,13 @@ xui.Class('App', 'xui.Module',{
                 .setWidth("23em")
                 .setHeight("13em")
                 .setCaption("urltexedit")
+                .setTarget("www.google.com")
             );
             
             return children;
             // ]]Code created by CrossUI RAD Studio
+        },
+        functions:{
         }
     }
 });
