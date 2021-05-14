@@ -30,14 +30,13 @@ xui.Class('App', 'xui.Module',{
             );
             
             host.xui_ui_panel13.append(
-                xui.create("xui.UI.Link")
-                .setHost(host,"xui_ui_link2")
-                .setLeft("0.7333333333333333em")
-                .setTop("0em")
-                .setWidth("23em")
-                .setHeight("13em")
-                .setCaption("urltexedit")
-                .setTarget("www.google.com")
+                xui.create("xui.UI.Element")
+                .setHost(host,"xui_ui_element5")
+                .setDockStretch("stretch")
+                .setLeft("22.095238095238095em")
+                .setTop("3.8095238095238093em")
+                .setHeight("11.657142857142857em")
+                .setHtml("<span class=\"tagcolor\" style=\"font-family: Consolas, &quot;courier new&quot;; font-size: 15px; background-color: rgb(255, 255, 255); box-sizing: inherit; color: mediumblue;\">&lt;</span><span style=\"color: rgb(165, 42, 42); font-family: Consolas, &quot;courier new&quot;; font-size: 15px; background-color: rgb(255, 255, 255);\">iframe</span><span class=\"attributecolor\" style=\"font-family: Consolas, &quot;courier new&quot;; font-size: 15px; background-color: rgb(255, 255, 255); box-sizing: inherit; color: red;\">&nbsp;src<span class=\"attributevaluecolor\" style=\"box-sizing: inherit; color: mediumblue;\">=\"<i style=\"box-sizing: inherit;\">https://www.comradenetworks.com/</i>\"</span>&nbsp;title<span class=\"attributevaluecolor\" style=\"box-sizing: inherit; color: mediumblue;\">=\"<em style=\"box-sizing: inherit;\">description</em>\"</span></span><span class=\"tagcolor\" style=\"font-family: Consolas, &quot;courier new&quot;; font-size: 15px; background-color: rgb(255, 255, 255); box-sizing: inherit; color: mediumblue;\">&gt;</span>")
             );
             
             return children;
